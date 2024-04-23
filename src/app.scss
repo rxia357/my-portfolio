@@ -1,0 +1,28 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: order-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit; // inheirt the light grey text colour from * parent
+}
+
+body{
+    background-color: #0c0c1d;
+    color: lightgrey; // text colour
+}
+
+
+section{
+    height: 100vh; // seperates the sections, by 100% of the viewport height (vh, meaning brower height)
+    scroll-snap-align: center; //algin with the centre scroll container and snaps into position
+
+}
